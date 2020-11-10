@@ -46,8 +46,8 @@
           aaa() {
             //这一步是常规方法  先试试这个   大多数程序员想到的
             // this.arr[1].color='黄色香蕉'
-            //方法一
-            // app.$set(this.arr[1],'color','黄色香蕉')
+            //方法一 最好用的方法
+            app.$set(this.arr[1],'color','黄色香蕉')
             //方法二
             // this.arr.splice(1,1,{ id: 2,
             //   fruit: "香蕉",color:'黄色香蕉'})
